@@ -1,0 +1,18 @@
+# Pymaceuticals Inc.
+---
+### Summary
+Provided 2 data files consist of mouse details and study results which consists of different mouse ID to differentiate mice, tumor volume , time point, Metastatic sites, Drug regimen, sex , age (in months), weight(in grams).
+- Prepare the data set by deleting the duplicates to avoid the repeatition of data and to get precise values to create the graphs. 
+- with provided information we have to find mean , median , variance, standard deviation , SEM of the tumor volume for each regimen.
+- Also need to create a new data frame with respect to above findings.
+- Then needed to create different charts for various finds.
+
+### Analysis
+
+- The bar graph showed that the maximum number of mice per treatment is under the Drug Regimen Capomulin (230), and Zoniferol has the smaller mice number (182). 
+- The correlation between mouse weight, and average tumor volume is 0.84. It is a strong positive correlation, when the mouse weight increases the average tumor volume also increases.
+- The regression analysis helped to understand how much the average tumor volume (dependent variable) will change when weight of mice change(independent variables). 
+- The R-squared value is 0.70, which means 70% the model fit the data, wich is fairely good to predict the data from the model. 
+- Higher R-squared values represent smaller differences between the observed data, and the fitted value. 70% the model explains all of the variation in the response variable around its mean.
+- From the selected treatments Capomulin and Ramicane reduces the size of tumors better.
+ 
